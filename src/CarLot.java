@@ -33,5 +33,18 @@ public class CarLot {
 		carList.remove(i);
 	}
 	
+	public void addCar(Car newCar) {
+		carList.add(newCar);
+	}
+	
+	public Car carLookup(int i) {
+		return carList.get(i);
+	}
+	
+	public void replaceCar(int i, Car newCar) {
+		carList.remove(i);
+		carList.add(i, newCar);
+	}
+	
 }
 
