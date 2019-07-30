@@ -27,6 +27,7 @@ public class CarLot {
 			i++;
 		}
 		System.out.println(i + ". Quit");
+		System.out.println();
 	}
 	
 	public void sellCar(int i) {
